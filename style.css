@@ -1,0 +1,142 @@
+#abc{
+     background-color: rgb(204, 227, 246); 
+
+}
+.navbar{
+    background-color: rgb(125, 125, 225);
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    text-align: center;
+    justify-items: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top:5%;
+    /* background-color:rgb(252, 197, 237); */
+    /* padding: 10px; */
+    /* border: 1px solid red; */
+    color: black;
+    border-radius: 25px;
+    height: 45px;
+    width: 400px;
+    animation-name: hello;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hello {
+    from { 
+        width:400px;
+    }
+    to { 
+        width: 1500px;
+        text-align: center;
+        justify-items: center;
+    }
+}
+.container{
+    padding: 0%;
+}
+
+.des{
+    float: right;
+    height: 5px;
+    width: 5px;
+    /* border: 1px solid; */
+    padding-right: 20%;
+    /* border-radius: 250px; */
+}
+
+#about{
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-left: 10%;
+    padding-right: 25%;
+    padding-top: 4%;
+}
+#foot p{
+    background-color: rgb(79, 79, 252);
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    height: 50%;
+    width: 100%;
+    /* position:fixed; */
+}
+.tab{
+   padding-left:80%;
+}
+
+#sp,#sp1{
+    padding-left:0%;
+    padding-bottom: 0%;
+    padding-top:0%;
+    text-align: left;
+    font-style: italic;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.sp a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:rgb(75, 0, 129);
+}
+
+a:hover{
+    color: red;
+}
+/* a:visited{
+    color:purple;
+} */
+.navbar ul li a:hover{
+    color:red;
+    font-weight: bold;
+}
+.new{
+    padding-left: 20%;
+   
+}
+#skill{
+    
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: inline;
+}
+#tab1{
+    padding-left:35%;
+    display: block;
+    position: relative;
+    padding: auto;
+    
+
+}
+#tab1 thead th{
+    font-size: 23px;
+    font-family:'Courier New', Courier, monospace;
+    border-bottom: 1px solid;
+}
+#tab1 tbody tr td{
+    font-size: 18px;
+    padding:auto;
+    font-weight: bold;
+}

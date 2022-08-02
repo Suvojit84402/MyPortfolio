@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(204, 227, 246);
+}
+a{
+    text-decoration: underline;
+    color: purple;
+    padding: bottom 0%;
+}
+a:hover{
+    color:red;
+}
+p{
+    padding-top:0%;
+}
+header{
+    font-size:25px;
+    text-decoration: underline;
+}

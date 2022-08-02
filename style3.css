@@ -1,0 +1,36 @@
+input{
+    box-sizing: border-box;
+    border: 1px solid rgb(53,200, 249);
+    background-color:rgb(243, 241, 241);
+}
+input:focus{
+    border: 3px;
+}
+
+textarea{
+    width: 50%;
+    height: 150px;
+    padding:12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(53, 200, 249);
+    border-radius:4px;
+    background-color:rgb(243, 241, 241);
+    resize: none;
+}
+input[type="submit"]{
+    background-color: rgb(109, 138, 254);
+}
+input[type="reset"]{
+    background-color: rgb(109, 138, 254);
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(55, 45, 255);
+}
+input[type="reset"]:hover{
+    cursor: pointer;
+    background-color: rgb(48, 45, 255);
+}
+body{
+    background-color:rgb(204, 227, 247);
+}
